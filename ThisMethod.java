@@ -3,7 +3,7 @@ class Student {
     int age;
 
     // Constructor 1
-    Student() {
+    Student() {// "this as method
         //calling parameterized constructor
         this("Unknown", 0); // "this" as a method
         
