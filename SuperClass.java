@@ -1,6 +1,5 @@
+import java.util.*;
 class SuperClass{
-
-{
     int a,b;
     public void get(int x, int y)
     {
@@ -11,7 +10,7 @@ class SuperClass{
 }
     class SubClass extends SuperClass
     { int a,b;
-        public void get()
+        public void set()
         {
             this.a=super.a;
             this.b=super.b;
@@ -27,7 +26,7 @@ class SuperClass{
         {
             SubClass object=new SubClass();
             object.get(10,20);
-            object.get();
+            object.set();
             object.put();
 
         }
