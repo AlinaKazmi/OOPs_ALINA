@@ -4,7 +4,9 @@ class Student {
 
     // Constructor 1
     Student() {
-        this("Unknown", 0); // calling parameterized constructor
+        //calling parameterized constructor
+        this("Unknown", 0); // "this" as a method
+        
         System.out.println("Default constructor called");
     }
 
