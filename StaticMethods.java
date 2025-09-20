@@ -1,4 +1,4 @@
-public class StaticVariables {
+public class StaticMethods {
     // static variable
      static int a = 40;
     // instance variable
@@ -17,11 +17,11 @@ public class StaticVariables {
     // main method
     public static void main(String[] args)
     {
-        StaticVariables obj = new StaticVariables();
+        StaticMethods obj = new StaticMethods();
         obj.simpleDisplay();
 
         // Calling static method
-        StaticVariables.staticDisplay();
+        StaticMethods.staticDisplay();
         staticDisplay();
     }
 }
