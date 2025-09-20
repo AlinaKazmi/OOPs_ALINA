@@ -4,7 +4,7 @@ static int num=3;
   {
     num++;
   }
-  public void set()
+  public void get()
   {
     System.out.println(num);
   }
